@@ -4,17 +4,19 @@
    box-sizing: border-box;
    font-family: 'Roboto', sans-serif;
 }
+body{
+   background-color: rgb(238, 235, 235);
+}
 .App{
    position: relative;
 }
 main{
    display: grid;
-   grid: 1fr / 1fr 1fr;
    place-items: center;
-   gap: 30px;
+   gap: 40px;
    width: calc(87% + 30px);;
    margin: auto;
-   padding: 50px 0;
+   padding: 60px 0;
 }
 .cards_con{
    width: 90%;

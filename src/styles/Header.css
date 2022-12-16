@@ -6,8 +6,8 @@
  .app-header {
    display: flex;
    align-items: center;
-   background-color: #01403a;
-   color: white;
+   background-image: linear-gradient( 106.9deg,  #940e3c 60.9%, rgba(3,22,27,1) 122.3% );
+   color: rgb(255, 255, 255);
    font-size:clamp(1rem,4vw,2.5rem);
    line-height: 56px;
  }
@@ -33,7 +33,7 @@
    font-size: 1.2rem;
  }
  #coinSelect option{
-   color: black;
+   color: rgb(0, 0, 0);
  }
  .toogleMode{
    background-color: transparent;
@@ -41,5 +41,5 @@
  }
  svg{
    font-size: 20px;
-   fill: white;
+   fill: rgb(255, 255, 255);
  }

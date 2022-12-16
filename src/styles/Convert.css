@@ -2,18 +2,21 @@
    --url: "ds";
  }
  .contenedor {
-   background-color: rgb(4 217 157 / 0.21);
+   background-color: #d7ced1;
    padding: 20px 30px 30px;
    border-radius: 10px;
    width: 85%;
    margin: 5vh auto;
+   box-shadow: 5px 5px 5px #767676;
  }
  
  .contenedor h2 {
    margin: 0 0 20px 0;
    font-size: 1.3rem;
  }
- 
+ h2{
+   color:#940e3c;
+ }
  .input-convert {
    display: grid;
    gap: 10px;

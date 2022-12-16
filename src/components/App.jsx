@@ -32,9 +32,11 @@ export default function App() {
     !coins ? "Cargando..." :(
     <div className='App'>
         <Header currencys={currency} fun={setSelCur} cur={selCur}/>
-       
+        <Convert/>
       <main>
+        
         <CardPrincipal json={coins[0]} cur={selCur}/>
+        
         <div className="cards_con">
           { coins.map(({id,symbol, image, current_price,price_change_percentage_30d_in_currency},index) =>{
             if(index != 0) {
@@ -44,7 +46,7 @@ export default function App() {
           }
         </div>
       </main>
-      <Convert/>
+      
       <TableCoins coins={coins}/>
       <Footer/>
     </div>
