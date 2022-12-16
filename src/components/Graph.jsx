@@ -25,7 +25,7 @@ ChartJS.register(
     Filler,
     Legend
 )
-export default function Graph({type = 1, coin = "bitcoin", currency = "usd", days = 30,color = "#04D99D"}){
+export default function Graph({type = 1, coin = "bitcoin", currency = "usd", days = 30,color = "rgb(149, 14, 61)"}){
     const chartStyle = {
         border: {
             display: false
@@ -58,8 +58,8 @@ export default function Graph({type = 1, coin = "bitcoin", currency = "usd", day
         getData()
         const canvas = chartRef.current.firstChild
         let BGgradient = canvas.getContext("2d").createLinearGradient(0, 0, 0, canvas.height);
-        BGgradient.addColorStop(0, 'rgba(4, 191, 157, 1)');   
-        BGgradient.addColorStop(1, 'rgba(4, 191, 157, 0)')
+        BGgradient.addColorStop(0, 'rgba(149, 14, 61,1)');   
+        BGgradient.addColorStop(1, 'rgba(149, 14, 61,0)')
         setGradient(BGgradient)
     },[])
     

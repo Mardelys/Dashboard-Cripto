@@ -1,11 +1,12 @@
 .cripto-first{
-   background: #02735E;
+   background: #d7ced1;
    width: 95%;
    max-width: 500px;
    border-radius: 20px;
    color: white;
    padding: 20px;
    text-align: center;
+   box-shadow: 5px 5px 5px #767676;
 }
 
 .icon-arrow{

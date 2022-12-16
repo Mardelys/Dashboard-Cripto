@@ -12,6 +12,7 @@ body{
 }
 main{
    display: grid;
+   grid-template-columns: 1fr 1fr;
    place-items: center;
    gap: 40px;
    width: calc(87% + 30px);;
@@ -20,9 +21,10 @@ main{
 }
 .cards_con{
    width: 90%;
-   height: 509px;
+   height: 309px;
+   margin-left: 5%;
    display: grid;
-   grid: repeat(3,1fr) / 1fr;
+   grid: repeat(2,1fr) / 1fr;
    align-self: stretch;
    gap: 20px;
 }

@@ -36,17 +36,18 @@ export default function App() {
       <main>
         
         <CardPrincipal json={coins[0]} cur={selCur}/>
+        <CardPrincipal json={coins[1]} cur={selCur}/>
         
-        <div className="cards_con">
+        
+      </main>
+      <div className="cards_con">
           { coins.map(({id,symbol, image, current_price,price_change_percentage_30d_in_currency},index) =>{
-            if(index != 0) {
+            if(index != 0 && index != 1) {
              return <Card key={index} price={`${symbol} - ${current_price} ${selCur} `} porcentaje={deleteDec(price_change_percentage_30d_in_currency,2)} img={image} coinId={id} cur={selCur}/>
             }
           })
           }
         </div>
-      </main>
-      
       <TableCoins coins={coins}/>
       <Footer/>
     </div>

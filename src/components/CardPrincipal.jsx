@@ -21,11 +21,6 @@ function CardPrincipal({ json: { id,
                 <div className="cripto-title">
                     <img src={image} alt="Icono de cripto" />
                     <h2>{symbol} - {current_price} {cur}</h2>
-                    {/* <select name="select-percentage" id="select-percentage">
-                        <option value="value1" selected>12%</option>
-                        <option value="value2">18%</option>
-                        <option value="value3">20%</option>
-                    </select> */}
                     <h2><FaPlay className={`icon-arrow ${colorDec(price_change_percentage_30d_in_currency)}`}/>{deleteDec(price_change_percentage_30d_in_currency,2)}%</h2>
                 </div>
                 <div className="graphic">

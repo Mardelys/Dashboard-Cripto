@@ -1,4 +1,5 @@
 import '../styles/Footer.css';
+import LogoMarde from '../img/Logo-marde.png';
 
 
 const Footer = () => {
@@ -18,7 +19,7 @@ const Footer = () => {
             <div className="footer-down">
                 <p>Developed by</p>
                 <div>
-                    {/*<img src={LogoAngela} alt="Logo Angela" />*/}
+                  <img src={LogoMarde} alt="Logo Marde" />
                    
                 </div>
             </div>

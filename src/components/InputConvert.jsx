@@ -25,12 +25,7 @@ export default function InputConvert({ coin,  sel = "btc", fun, other,text, type
               }else if(co.symbol != other){
                 return <option value={co.symbol} key={co.id}>{co.name}</option>
               }
-              /* if(index === sel){
-              return <option selected value={co.symbol} key={co.id}>{co.symbol}</option>
-              }else{
-              return <option value={co.symbol} key={co.id}>{co.name}</option>
-              }
-              } */
+              
             })}
           </select>
         </div>
