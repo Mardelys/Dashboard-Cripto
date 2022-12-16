@@ -24,7 +24,7 @@ main{
    height: 309px;
    margin-left: 5%;
    display: grid;
-   grid: repeat(2,1fr) / 1fr;
+   grid: repeat(4,1fr) / 1fr;
    align-self: stretch;
    gap: 20px;
 }

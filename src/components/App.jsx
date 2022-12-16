@@ -13,7 +13,7 @@ export default function App() {
   const [currency, setCurrency] = useState()
   const [selCur, setSelCur] = useState("usd")
   const getData = async () =>{
-    const response = await fetch(`https://api.coingecko.com/api/v3/coins/markets?vs_currency=${selCur}&order=market_cap_desc&per_page=4&page=1&sparkline=false&price_change_percentage=1h%2C24h%2C7d%2C30d%2C90d%2C1y`)
+    const response = await fetch(`https://api.coingecko.com/api/v3/coins/markets?vs_currency=${selCur}&order=market_cap_desc&per_page=6&page=1&sparkline=false&price_change_percentage=1h%2C24h%2C7d%2C30d%2C90d%2C1y`)
     const json = await response.json()
     const response_cur = await fetch("https://api.coingecko.com/api/v3/simple/supported_vs_currencies")
     const cur = await response_cur.json()
