@@ -1,5 +1,5 @@
 import '../styles/Footer.css';
-import LogoMarde from '../img/Logo-marde.png';
+import LogoMarde from '../img/Logo-marde.png';// se importan estilos y una imágen correspondiente a mi marca personal y esta función footer solo retorna la información que se lee acontinuación. sería un componente no funcional
 
 
 const Footer = () => {

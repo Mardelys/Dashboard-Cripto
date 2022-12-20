@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react";// se importa react, estilos y coin row quien se encarga de colocar 
 import "../styles/TableCoins.css";
 import CoinRow from "./CoinRow";
 
