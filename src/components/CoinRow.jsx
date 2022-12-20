@@ -1,4 +1,4 @@
-import React from "react";// se importa react, los estilos y los graficos
+import React from "react";// se importa react, los estilos y los graficos.
 import "../styles/CoinRow.css"
 import Graph from './Graph'
 import {deleteDec, colorDec, numberF} from './App'
